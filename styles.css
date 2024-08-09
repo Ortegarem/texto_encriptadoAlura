@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.encriptar, .encriptado {
+    padding: 20px;
+    flex: 1;
+}
+
+.encriptar {
+    border-right: 1px solid #dddddd;
+}
+
+textarea.texto {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+.terminos p {
+    font-size: 14px;
+    color: #888888;
+    margin-top: 10px;
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button, .botones input {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botones button:hover, .botones input:hover {
+    background-color: #0056b3;
+}
+
+.encriptado img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.mensaje-encriptado {
+    text-align: center;
+}
+
+.mensaje-encriptado h2 {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.mensaje-encriptado p {
+    font-size: 16px;
+    color: #777777;
+}
